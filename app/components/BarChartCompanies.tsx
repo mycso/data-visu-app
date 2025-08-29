@@ -93,7 +93,7 @@ const BarChartCompanies = () => {
   } as any
 
   return (
-    <div className="relative w-full max-w-[900px] h-[600px] mx-auto">
+    <div className="relative w-full max-w-[900px] h-[600px] mx-auto overflow-auto">
       <div className="flex items-center w-[700px]">
         <Bar data={chartData} options={options} height={500} />
         <div className="w-full flex flex-col justify-between h-[calc(100%-100px)] pr-2 pointer-events-none text-sm font-semibold">
