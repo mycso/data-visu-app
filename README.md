@@ -1,6 +1,6 @@
 # Developer Challenge — Data Visualization App
 
-This is a [Next.js](https://nextjs.org) project that fetches and visualizes data from [this dataset](https://dujour.squiz.cloud/developer-challenge/data). The goal is to provide a clean, interactive interface where you can explore companies by country and industry, see key stats, and get a clear overview of the data.
+This is a [Next.js]/React.js (https://nextjs.org) project that fetches and visualizes data from [this dataset](https://dujour.squiz.cloud/developer-challenge/data). The goal is to provide a clean, interactive interface where you can explore companies by country and industry, see key stats, and get a clear overview of the data.
 
 ---
 
