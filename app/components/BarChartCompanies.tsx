@@ -11,7 +11,6 @@ import {
   Tooltip,
   Legend,
 } from 'chart.js'
-import AnimatedNumber from './AnimatedNumber'
 import { getCountryCode } from '../lib/getCountryCode'
 import Loading from './Loading'
 
@@ -93,7 +92,7 @@ const BarChartCompanies = () => {
   } as any
 
   return (
-    <div className="relative w-full max-w-[900px] h-[600px] mx-auto overflow-auto">
+    <div className="relative w-full max-w-[910px] h-[600px] mx-auto overflow-auto md:overflow-hidden">
       <div className="flex items-center w-[700px]">
         <Bar data={chartData} options={options} height={500} />
         <div className="w-full flex flex-col justify-between h-[calc(100%-100px)] pr-2 pointer-events-none text-sm font-semibold">
@@ -111,7 +110,7 @@ const BarChartCompanies = () => {
                   )}
                   <span className="truncate">{company.name}</span>
                 </div>
-                <AnimatedNumber value={company.numberOfEmployees} />
+                <div>{company.numberOfEmployees}</div>
               </div>
             )
           })}
