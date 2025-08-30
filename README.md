@@ -66,10 +66,3 @@ Then open [http://localhost:3000](http://localhost:3000) to see it in action.
 * [Next.js Documentation](https://nextjs.org/docs)
 * [Tailwind CSS Documentation](https://tailwindcss.com/docs)
 * [Recharts Documentation](https://recharts.org/en-US/)
-
----
-
-## Deployment
-
-This app can be deployed easily on [Vercel](https://vercel.com/) — just follow the [Next.js deployment guide](https://nextjs.org/docs/app/building-your-application/deploying).
-
