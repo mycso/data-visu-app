@@ -1,6 +1,6 @@
 # Developer Challenge — Data Visualization App
 
-This is a [Next.js](https://nextjs.org) project that fetches and visualizes data from [this dataset](https://dujour.squiz.cloud/developer-challenge/data). The goal is to provide a clean, interactive interface where you can explore companies by country and industry, see key stats, and get a clear overview of the data.
+This is a Next.js/React.js (https://nextjs.org) project that fetches and visualizes data from [this dataset](https://dujour.squiz.cloud/developer-challenge/data). The goal is to provide a clean, interactive interface where you can explore companies by country and industry, see key stats, and get a clear overview of the data.
 
 ---
 
@@ -57,8 +57,7 @@ Then open [http://localhost:3000](http://localhost:3000) to see it in action.
 
 ## Bonus Features
 
-* Pagination or infinite scroll for large datasets.
-* Remember user preferences like filters, search terms, and sort order using `localStorage`.
+* Infinite scroll for large datasets.
 
 ---
 
@@ -67,10 +66,3 @@ Then open [http://localhost:3000](http://localhost:3000) to see it in action.
 * [Next.js Documentation](https://nextjs.org/docs)
 * [Tailwind CSS Documentation](https://tailwindcss.com/docs)
 * [Recharts Documentation](https://recharts.org/en-US/)
-
----
-
-## Deployment
-
-This app can be deployed easily on [Vercel](https://vercel.com/) — just follow the [Next.js deployment guide](https://nextjs.org/docs/app/building-your-application/deploying).
-
