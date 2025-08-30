@@ -58,7 +58,6 @@ Then open [http://localhost:3000](http://localhost:3000) to see it in action.
 ## Bonus Features
 
 * Pagination or infinite scroll for large datasets.
-* Remember user preferences like filters, search terms, and sort order using `localStorage`.
 
 ---
 
